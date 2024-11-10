@@ -1,1 +1,1 @@
-# frontend-mentor-qr-code-component
+# [Frontend Mentor](https://www.frontendmentor.io/) | QR Code Component
