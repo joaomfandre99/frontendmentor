@@ -1,1 +1,1 @@
-# [QR Code Component](qr-code-component)
+### [QR Code Component](qr-code-component)
