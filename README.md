@@ -1,1 +1,1 @@
-# [Frontend Mentor](https://www.frontendmentor.io/) | QR Code Component
+# [Frontend Mentor Challenges](https://www.frontendmentor.io/)
