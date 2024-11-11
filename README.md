@@ -1,1 +1,1 @@
-# [Frontend Mentor Challenges](https://www.frontendmentor.io/)
+# [QR Code Component](qr-code-component)
