@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Blog Preview Card Solution](https://github.com/joaomfandre/frontendmentor/tree/main/blog-preview-card-component)
-- Live Site URL: [Blog Preview Card Pages](https://joaomfandre.github.io/frontendmentor/blog-preview-card-component/)
+- Solution URL: [Blog Preview Card Solution](https://github.com/joaomfandre99/frontendmentor/tree/main/blog-preview-card-component)
+- Live Site URL: [Blog Preview Card Pages](https://joaomfandre99.github.io/frontendmentor/blog-preview-card-component/)
 
 ## My process
 
@@ -61,5 +61,5 @@ During this challenge I learned how to use the @font-face css rule to import the
 
 ## Author
 
-- Github - [joaomfandre](https://github.com/joaomfandre)
-- Frontend Mentor - [@joaoMFAndre](https://www.frontendmentor.io/profile/JoaoMFAndre)
+- Github - [joaomfandre99](https://github.com/joaomfandre99)
+- Frontend Mentor - [@joaomfandre99](https://www.frontendmentor.io/profile/joaomfandre99)
