@@ -1,0 +1,119 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--grey-900);
+    font-family: 'Inter';
+    font-weight: 400;
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.card {
+    background-color: var(--grey-800);
+    padding: 35px 60px;
+    border-radius: 12px;
+    max-width: 375px;
+    height: fit-content;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.profile-avatar {
+    border-radius: 100%;
+    max-width: 90px;
+    overflow: hidden;
+}
+
+.profile-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.profile-subtitle {
+    font-weight: 600;
+    color: var(--green);
+    font-size: 14px;
+}
+
+.profile-description {
+    margin: 20px 0 15px 0;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link-btn {
+    background-color: var(--grey-700);
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+}
+.link-btn:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+.attribution a {
+    color: var(--green);
+}
+
+@media only screen and (max-width: 400px) {
+    .card {
+        padding: 30px 40px;
+    }
+}
