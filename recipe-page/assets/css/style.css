@@ -67,18 +67,14 @@ span {
     font-weight: bold;
 }
 
+ul, ol, li {
+    padding-left: 20px;
+}
+
 li::marker {
     font-family: 'Outfit';
     font-weight: 700;
     color: var(--brown-800);
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ol {
-    padding-left: 20px;
 }
 
 hr {
@@ -147,18 +143,22 @@ section, .introduction {
 @media only screen and (min-width: 768px) {
     body {
         background-color: var(--stone-100);
-        margin: 20px 0;
+        margin: 120px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
     }
     .card {
-        border-radius: 15px;
-        padding: 30px;
+        border-radius: 20px;
+        padding: 40px;
         max-width: 769px;
-        margin: auto;
     }
     .section, .introduction {
         padding: 0;
     }
     .recipe-image {
-        border-radius: 10px;
+        border-radius: 15px;
     }
 }
